@@ -1,0 +1,16 @@
+1-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+  Having access to the entire history of your files makes you an efficient programmer in defferent ways:
+   - It helps you see the changes of your documents
+   -It helps you remember some of the syntax you used 
+   -It helps you modify those files and update them if only you lose you new files
+2-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+   -The advantage of choosing when to commit is that you have control over the time to commit and since you are the programmer you know better when to commit that living that task to the computer which might commit at a time where the code will have some error or some in complet instructions
+   -The disadvantage of this practice is that for somebody who forgets to commit when critial changes have being made will find it very difficult to work with the history of his commits
+ 3-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+     I think it is because the Git version control system is very used by programmers and when programming, a single project can used different sorts of files.An example is a project that involve creating a web page. We can use  a htlm file, a css file also so javascript file
+4-How can you use the commands git log and git diff to view the history of files?
+    we use the the git log command to see the id of the commits
+    the we use the git diff command with those ids as operand to see the changes made in the files
+5-What happens when you initialize a repository? Why do you need to do it?
+    when we initialize the new repository there are no commits and the files are untracked 
+6-How is the staging area different from the working directory and the repository? What value do you think it offers?
